@@ -201,7 +201,7 @@ img {
 }
 
 .info {
-  padding: 32px 0;
+  padding: 3px;
 }
 
 /* -------------------main style-------------------- */
@@ -402,7 +402,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 270px;
   height: 120px;
   border-radius: 4px;
   background-color: var(--page-bottom-color);
@@ -490,7 +489,6 @@ img {
 }
 
 .hidden-header {
-  /* width: 264px; */
   margin-bottom: 50px;
 }
 
@@ -537,30 +535,26 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
-  color: var(--social-color);
+  fill: #afb1b8;
   border-radius: 50%;
 }
 
-.social-link:hover {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
-
+.social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
-  color: var(--white-color);
-}
-
-.social-icon {
-  fill: #afb1b8;
+  fill: #ffffff;
 }
 
 .social-icon:hover {
   background-color: var(--accent-color);
-  fill: currentColor;
+  fill: #ffffff;
 }
 
 /* --------Постоянные клиенты------- */
+
+.section-logotypes {
+  padding: 94px 0;
+}
 
 .logotypes-title {
   font-weight: 700;
@@ -568,13 +562,13 @@ img {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .logotypes-list {
   display: flex;
   margin-top: 50px;
   gap: 30px;
-  margin-bottom: 94px;
 }
 
 .logotype-link {
@@ -586,17 +580,13 @@ img {
   border: 1px solid var(--social-color);
   border-radius: 4px;
 
-  color: var(--social-color);
+  fill: #afb1b8;
 }
 
 .logotype-link:hover,
 .logotype-link:focus {
-  color: var(--accent-color);
+  fill: #2196f3;
   border-color: var(--accent-color);
-}
-
-.logotype-icon {
-  fill: #afb1b8;
 }
 
 .logotype-icon:hover {
