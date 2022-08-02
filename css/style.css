@@ -348,6 +348,13 @@ img {
   line-height: 1.88;
 }
 
+.portfolio-item:hover,
+.portfolio-item:focus {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .portfolio-projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -549,6 +556,7 @@ img {
 }
 
 .social-icon:hover {
+  background-color: var(--accent-color);
   fill: currentColor;
 }
 
